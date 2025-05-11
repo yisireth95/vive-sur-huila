@@ -1,0 +1,75 @@
+/* Estilos existentes... */
+
+/* Estilos para el carrusel */
+.carousel-item {
+    height: 60vh; /* Reducido de 100vh */
+    min-height: 300px; /* Reducido de 350px */
+}
+
+.carousel-caption {
+    bottom: 80px; /* Reducido de 180px */
+    padding: 20px; /* Reducido de 30px */
+}
+
+.carousel-caption h1 {
+    font-size: 36px; /* Reducido de 45px */
+}
+
+.carousel-caption p {
+    font-size: 16px; /* Reducido de 18px */
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-caption {
+        bottom: 40px; /* Reducido de 165px */
+    }
+
+    .carousel-caption h1 {
+        font-size: 22px; /* Reducido de 25px */
+    }
+}
+
+
+/* Estilos para el botón de login */
+.btn-outline-light:hover {
+    color: #2E8B57;
+    background-color: #fff;
+}
+
+/* Estilos para el modal de login */
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header {
+    background-color: #2E8B57;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius:  15px;
+}
+
+.modal-header .btn-close {
+    color: white;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#registerLink {
+    color: #2E8B57;
+    text-decoration: none;
+}
+
+#registerLink:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding-top: 60px; /* Añade un poco de espacio en la parte superior */
+}
+
+/* Resto de los estilos existentes... */
